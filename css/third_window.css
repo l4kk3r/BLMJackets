@@ -1,0 +1,48 @@
+/* THIRD WINDOW */
+.sewing_types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.th_content {
+    width: 800px;
+}
+.th_content h2,
+.th_content h5 {
+    margin-left: 0;
+}
+.sewing_type {
+    text-align: center;
+    cursor: pointer;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sewing_type p {
+    font-weight: 300;
+    font-size: 20px;
+}
+.sewing_types {
+    padding: 0 20px;
+}
+.sewing_types picture {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 750px) {
+    .th_content h2,
+    .th_content h5 {
+        margin-left: 10%;
+    }
+    .sewing_types {
+        justify-content: center;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .th_content .move_arrow_prev {
+        left: 10%;
+    }
+}

@@ -1,0 +1,128 @@
+/* RESULT WINDOW */
+.result_window {
+    color: #848484 !important;
+    padding: 30px 0;
+}
+.rw_result {
+    display: flex !important;
+    padding: 0px 20px;
+}
+.slick-track {
+    display: flex !important;
+    align-items: center !important;
+}
+.slick-prev:before, .slick-next:before{
+    color:#848484;
+    font-size: 30px;
+}
+.rw_content h2 {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.rw_contacts_icons {
+    margin-top: 25px;
+}
+.rw_result_right {
+    padding-left: 20px;
+}
+.rw_company img {
+    width: 60px;
+}
+.rw_newprice {
+    color: #C31B1B;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.rw_oldprice {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+.rw_oldprice:before {
+    border-bottom: 3px solid #C31B1B;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    transform: rotate(-7deg);
+}
+.rw_orderbutton {
+    border: none;
+    background: transparent;
+    padding: 10px 70px;
+    border: 1px solid #C4C4C4;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.rw_orderbutton:focus {
+    outline: none;
+}
+.rw_product img {
+    width: 230px;
+}
+.rw_result_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rw_contacts_icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.rw_contacts {
+    text-align: center;
+    margin-top: 35px;
+    background-color: #F5F5F5;
+    padding: 20px 60px;
+}
+.icon {
+    width: 200px;
+}
+.icon img {
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
+.slick-next {
+    width: 20px;
+}
+@media (max-width: 750px) {
+    .rw_result {
+        flex-direction: column;
+    }
+    .slick-track {
+        display: block !important;
+    }
+    .rw_content h2 {
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .bottom_header {
+        margin-left: 10%;
+    }
+    .rw_result_right p {
+        margin: 30px 0;
+    }
+    .rw_company img {
+        margin: 0 auto;
+    }
+    .rw_result_right {
+        text-align: center;
+        padding-left: 0;
+    }
+    .rw_content .move_arrow_prev {
+        z-index: 2;
+        top: 20%;
+        left: 5%;
+    }
+    .rw_content .move_arrow_next {
+        z-index: 2;
+        top: 20%;
+        right: 5%;
+    }
+}

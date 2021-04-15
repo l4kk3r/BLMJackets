@@ -1,0 +1,53 @@
+/* FOURTH WINDOW */
+.fr_content {
+    width: 100%;
+}
+.fourth_window {
+    height: auto !important;
+}
+.fr_content h2,
+.fr_content h5 {
+    margin-left: 0;
+}
+.places {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.place {
+    text-align: center;
+    cursor: pointer;
+}
+.data__phone {
+    text-align: center;
+}
+.data__phone h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+.middle_spacer {
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    border-top: 1px solid;
+}
+hr {
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.input__field input {
+    border: 1px solid #C4C4C4;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+@media (max-width: 750px) {
+    .places {
+        flex-direction: column;
+    }
+    .input__field input {
+        font-size: 20px;
+    }
+}

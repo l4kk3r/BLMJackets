@@ -1,0 +1,114 @@
+/* FIRST WINDOW */
+.first_window {
+    height: calc(100vh - 100px);
+    padding: 50px 20px;
+    color: #848484 !important;
+}
+.fw_content {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100%;
+    justify-content: space-between;
+}
+.fw_content_right {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+}
+.fw_content_right img {
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
+}
+.fw_content_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+.fw_content_left img {
+    width: 400px;
+    margin: 0 auto;
+}
+.fw_content_left button {
+    border: none;
+    padding: 12.5px 0;
+    height: 41px;
+    width: 200px;
+    font-size: 18px;
+    margin: 15px auto;
+    color: #848484;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    background-color: #F3E072;
+    cursor: pointer;
+}
+.fw_content_left button:focus {
+    outline: none;
+}
+.fw_content_left p {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.fw_offer {
+    font-size: 25px;
+}
+.fw_content_left ul {
+    background-color: #F5F5F5;
+    padding: 30px 0;
+    padding-left: 50px;
+    display: inline-block
+}
+.fw_content_left li {
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+.fw_content_left h5 {
+    font-weight: 400;
+    text-transform: lowercase;
+}
+@media (max-width: 750px) {
+    .fw_content_right {
+        display: none;
+    }
+    .fw_content_left {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .fw_content {
+        display: block;
+    }
+    .fw_content_left p {
+        font-size: 12px;
+        margin: 25px 0;
+    }
+    .fw_offer {
+        font-size: 20px;
+    }
+    .fw_content_left button {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .fw_content_left li {
+        font-size: 12px;
+    }
+    .fw_content_left ul {
+        margin-top: 0;
+        padding-left: 30px;
+    }
+    .fw_content_left h5 {
+        font-size: 10px;
+    }
+    .fw_content_left img {
+        width: 300px;
+    }
+}
+@media (max-width: 300px) {
+    .fw_content_left img {
+        width: 100%;
+    }
+}
