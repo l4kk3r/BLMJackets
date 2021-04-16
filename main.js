@@ -144,6 +144,20 @@ function chooseSewingType (type) {
             </div>
         </div>`)
     }
+
+    rw_result_wrapper.insertAdjacentHTML('beforeend', 
+        `<div class="rw_result">
+             <div class="rw_result_left">
+                            <picture class="rw_product" id="Любой">
+                                <img src="./images/results/products/Любой.png" alt="Сорочка"/>
+                            </picture>
+                        </div>
+                        <div class="rw_result_right">
+                            <p>А так же:<br><br>более 1000 премиальных тканей из Италии и Англии более 100 дизайн опций персональная монограмма</p>
+                            <h4>со скидкой (-25%)</h4>
+                            <button onclick="openModal('phone')" class="rw_orderbutton">Заказать</button>
+                        </div>
+                    </div> `)
     $('.rw_result_wrapper').slick({
         infinite: false,
         prevArrow:"<button type='button' class='move_arrow_prev slick-prev'><i class='arrow left'></i></i></button>",
