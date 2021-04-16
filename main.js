@@ -153,7 +153,7 @@ function chooseSewingType (type) {
                             </picture>
                         </div>
                         <div class="rw_result_right">
-                            <p>А так же:<br><br>более 1000 премиальных тканей из Италии и Англии более 100 дизайн опций персональная монограмма</p>
+                            <p>А так же:<br><br><ul><li>Более 1000 премиальных тканей из Италии и Англии</li><li>Более 100 дизайн опций</li><li>Персональная монограмма</li></ul></p>
                             <h4>со скидкой (-25%)</h4>
                             <button onclick="openModal('phone')" class="rw_orderbutton">Заказать</button>
                         </div>
